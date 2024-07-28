@@ -1,0 +1,289 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+
+}
+.wrapper{
+width: 100%;
+height: 100vh;
+background: #293462;
+border: 10px solid white;
+display: flex;
+align-items: center;
+justify-content: center;
+
+}
+.ice{
+width: 200px;
+height: 300px;
+background: #FFF1C1;
+border-radius: 150px 150px 40px 40px;
+
+}
+.shadow{
+width: 40px;
+height: 30px;
+background: #A64942;
+margin: 0 auto;
+
+}
+.stick{
+width: 40px;
+height: 70px;
+background: #FE5F55;
+margin: 0 auto;
+border-radius: 0 0 14px 14px;
+
+}
+
+.card__wrapper{
+width: 100%;
+height: 100vh;
+background: #191919;
+display: flex; 
+align-items: center;
+justify-content: center;
+
+}
+.card{
+    width: 300px;
+    height: 400px;
+    background: #4F77FF;
+    border-radius: 150px 150px 0 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-end;
+    gap: 12px;
+
+}
+.stair{
+width: 80%;
+height: 50px;
+background: #191919;
+
+}
+
+.stair:nth-child(1){
+width: 20%;
+
+}
+
+.stair:nth-child(2){
+width: 40%;
+
+}
+
+.stair:nth-child(3){
+width: 60%;
+
+}
+.circle{
+width: 500px;
+height: 500px;
+background: #FFF1C1;
+border-radius: 50%;
+position: relative;
+overflow: hidden;
+
+}
+.mountain__smail,
+.mountain__big{
+position: absolute;    
+width: 450px;
+height: 450px;
+background: #FE5F55;
+transform: rotate(45deg)translateY(70px) translateX(300px);
+
+}
+.mountain__smail{
+left: -280px;
+top: 160px;
+
+} 
+.bell__card{
+width: 100%;
+height: 100vh;
+background: #191919;
+display: flex;
+align-items: center;
+justify-content: center;
+border: 10px solid white;
+}
+.bell{
+width: 120px;
+height: 120px;
+background: #F2AD43;
+border-radius: 50%;
+display: flex;
+position: relative;
+align-items: center;
+justify-content: center;
+
+}
+.call{
+    position: absolute;
+width: 250px;
+height: 250px;
+background: #E08027;
+border-radius: 150px 150px 20px 20px;
+top: 50%;
+z-index: 1;
+
+}
+.semicircle{
+width: 120px;
+height: 120px;
+background: #824B20;
+border-radius: 50%;
+ transform: translateY(240px);
+
+}
+.item__wrapper{
+width: 100%;
+height: 100vh;
+background: #191919;
+display: flex;
+align-items: center;
+justify-content: center;
+border: 10px solid white;
+}
+.item{
+width: 300px;
+height: 470px;
+background: #F2AD43;
+border-radius: 150px 150px 40px 40px;
+display: flex;
+align-items: center;
+justify-content: center;
+position: relative;
+overflow: hidden;
+
+}
+.sun{
+width: 150px;
+height: 150px;
+background: #191919;
+border-radius: 50%;
+overflow: hidden;
+transition: .5s;
+}
+.sun:hover{
+background: #FFF1C1;
+
+}
+
+.hero{
+position: absolute;
+width: 300px;
+height: 300px;
+background: #E08027;
+border-radius: 50%;
+transform: rotate(45deg) translateY(150px) translateX(300px);
+    
+}
+.hero{
+    right: 220px;
+  top: -17%;
+}
+
+.form{
+position: absolute;
+width: 300px;
+height: 300px;
+background: #824B20;
+border-radius: 50%;
+transform: rotate(45deg) translateY(120px) translateX(300px);
+
+}
+.form{
+left: -8px;
+top: -58px;
+
+}
+.hero__wrapper{
+width: 100%;
+height: 100vh;
+background: #4F77FF;
+display: flex;
+align-items: center;
+justify-content: center;
+
+
+}
+.rectangle{
+width: 900px;
+height: 500px;
+background: #293462;
+display: flex;
+align-items: center;
+justify-content: center;
+
+}
+.big__circle{
+width: 800px;
+height: 800px;
+background: #4F77FF;
+border-radius: 50%;
+display: flex;
+align-items: center;
+justify-content: center;
+
+}
+.smail__circle{
+width: 500px;
+height: 500px;
+background: #293462;
+border-radius: 50%;
+display: flex;
+align-items: center;
+justify-content: center;
+
+}
+.mini__circle{
+width: 300px;
+height: 300px;
+background: #ffd700;
+border-radius: 50%;
+
+}
+.text__wrapper{
+width: 100%;
+height: 100vh;
+background: #FE5F55;
+display: flex;
+align-items: center;
+justify-content: center;
+position: relative;
+}
+
+.square{
+    position: absolute;
+width: 400px;
+height: 400px;
+background: #fff;
+display: flex;
+align-items: center;
+justify-content: center;
+
+}
+.title{
+    width: 50px;
+    height: 400px;
+    background: #FE5F55;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.subtitle{
+width: 400px;
+height: 50px;
+background: #FE5F55;
+display: flex;
+align-items: center;
+justify-content: center;
+
+
+}
